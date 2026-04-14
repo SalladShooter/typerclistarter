@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "<project-name>"
+version = "<version>"
+dependencies = [
+  # required libraries, e.x.:
+  # "requests>=2.0"
+]
+requires-python = ">=3.8"
+
+authors = [
+  { name = "<your-name>" }
+]
+
+description = "<description>"
+readme = "README.md"
+
+license = { file = "LICENSE" }
+license-files = ["LICEN[CS]E.*"]
+
+keywords = [
+  # e.x.:
+  # "cli",
+  # "python"
+]
+
+[project.scripts]
+my-command = "my_package.main:main"
+
+# <command-name> = "<package_name>.<module>:<function>"
+# <command-name>: CLI command (what users type)
+# <package_name>: Python package (use underscores, not hyphens)
