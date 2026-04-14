@@ -2,7 +2,6 @@
 
 ### Installation 
 
-`````
 ```bash
 git clone https://github.com/SalladShooter/typerclistarter.git my-cli
 cd my-cli
